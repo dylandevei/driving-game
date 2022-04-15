@@ -6,3 +6,22 @@ body {
   width: 100px;
   height: 100px;
 }
+
+.left {
+  transform: rotate(-0.5turn);
+  transition-duration: 0.25s;
+}
+
+.down {
+  transform: rotate(0.25turn);
+  transition-duration: 0.25s;
+}
+
+.up {
+  transform: rotate(-0.25turn);
+  transition-duration: 0.25s;
+}
+
+.right {
+  transition-duration: 0.25s;
+}
