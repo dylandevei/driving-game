@@ -14,14 +14,13 @@ function rotateCar(event) {
   } else if (event.key === 'ArrowRight') {
     $car.className = ('car right');
   } else if (event.key === ' ') {
-    startCar();
+    startEngine();
   }
 }
-function startCar() {
+
+function startEngine() {
   clearInterval(id);
   id = setInterval(startEngine, 16);
-  function startEngine() {
-    position++;
-    $car.style.left = position + 'px';
-  }
+  position++;
+  $car.style.left = position + 'px';
 }
