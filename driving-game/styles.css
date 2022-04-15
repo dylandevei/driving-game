@@ -1,10 +1,12 @@
 body {
   background-color: #288d27;
+  position: relative;
 }
 
 .car {
   width: 100px;
   height: 100px;
+  position: absolute;
 }
 
 .left {
